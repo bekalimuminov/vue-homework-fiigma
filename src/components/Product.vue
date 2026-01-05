@@ -6,7 +6,7 @@
       </div>
       <div class="ml-[140px] mt-[64px]">
         <ol class="flex gap-[39px]">
-          <li class="font-[500] robot text--[18px]">ICE CREAM</li>
+          <li class="font-[500] robot text--[18px] border border-b-red-500">ICE CREAM</li>
           <li class="robot font-[500] text-[18px] opacity-[60%]">CAYENNE CHOCOLATE</li>
           <li class="robot font-[500] text-[18px] opacity-[60%]">CAKE BATTER</li>
           <li class="robot font-[500] text-[18px] opacity-[60%]">CANDY CANE</li>
@@ -75,5 +75,6 @@
     </div>
   </section>
 </template>
-<script setup lang="ts">
+<script>
+
 </script>

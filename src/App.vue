@@ -4,6 +4,7 @@ import Hero from "./components/Hero.vue";
 import Menu from "./components/Menu.vue";
 import RectlengeSection from "./components/RectlengeSection.vue";
 import Product from "./components/Product.vue";
+import DowloandMenu from "./components/DowloandMenu.vue";
 export default {
   components: {
     Header,
@@ -11,6 +12,7 @@ export default {
     Menu,
     RectlengeSection,
     Product,
+    DowloandMenu,
   }
 }
 </script>
@@ -24,6 +26,7 @@ export default {
     <Menu/>
     <RectlengeSection/>
     <Product/>
+    <DowloandMenu/>
   </main>
 </template>
 
