@@ -1,32 +1,14 @@
-<script>
-import Header from "./components/Header.vue";
-import Hero from "./components/Hero.vue";
-import Menu from "./components/Menu.vue";
-import RectlengeSection from "./components/RectlengeSection.vue";
-import Product from "./components/Product.vue";
-import DowloandMenu from "./components/DowloandMenu.vue";
-export default {
-  components: {
-    Header,
-    Hero,
-    Menu,
-    RectlengeSection,
-    Product,
-    DowloandMenu,
-  }
-}
-</script>
-
 <template>
-  <header>
-    <Header/>
-  </header>
-  <main>
-    <Hero/>
-    <Menu/>
-    <RectlengeSection/>
-    <Product/>
-    <DowloandMenu/>
-  </main>
+ <Header/>
+  <Main/>
+  <div class="flex">
+    <Cards/>
+    <Order/>
+  </div>
 </template>
-
+<script setup>
+import Header from './components/Header.vue'
+import Main from './components/Main.vue'
+import Cards from "./components/Cards.vue";
+import Order from './components/Order.vue'
+</script>
